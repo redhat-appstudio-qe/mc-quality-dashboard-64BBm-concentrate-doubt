@@ -22,7 +22,7 @@ spec:
         app.kubernetes.io/instance: frontend-quality-dashboard-dibt
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-appstudio-qe/e2e-demos-zvnb-tenant/mc-quality-dashboard/frontend-quality-dashboard-dibt@sha256:d7ca2c687849ea3fd7465c8379b66c7a55f0fdd36b5746256b76c71203b53eef
         imagePullPolicy: Always
         name: container-image
         ports:
