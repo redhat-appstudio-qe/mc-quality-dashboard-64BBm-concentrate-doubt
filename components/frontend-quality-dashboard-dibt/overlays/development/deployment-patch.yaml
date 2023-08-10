@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: frontend-quality-dashboard-dibt
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/e2e-demos-zvnb-tenant/mc-quality-dashboard/frontend-quality-dashboard-dibt@sha256:d7ca2c687849ea3fd7465c8379b66c7a55f0fdd36b5746256b76c71203b53eef
+        name: container-image
+        resources: {}
+status: {}
